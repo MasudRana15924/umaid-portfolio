@@ -58,26 +58,21 @@ const Navbar = () => {
 
                         </li>
                         <li>
-                            <Link to="/skill" className="text-sm  text-gray-900 px-5 py-2   block " onClick={showMenu}>
-                                Skill
+                            <Link to="/about" className="text-sm  text-gray-900 px-5 py-2   block " onClick={showMenu}>
+                                About
                             </Link>
 
                         </li>
 
                         <li>
-                            <Link to="/contact" className="text-sm  text-gray-900 px-5 py-2   block " onClick={showMenu}>Contact</Link>
+                            <Link to="/education" className="text-sm  text-gray-900 px-5 py-2   block " onClick={showMenu}>Teaching</Link>
 
-                        </li>
-                        <li>
-                            <Link to="/projects" className="text-sm  text-gray-900 px-5 py-2   block " onClick={showMenu}>Projects</Link>
-
-                        </li>
-                        <li>
-                            <Link to="/education" className="text-sm  text-gray-900 px-5 py-2   block " onClick={showMenu}>Education</Link>
                         </li>
                         <li>
                             <Link to="/courses" className="text-sm  text-gray-900 px-5 py-2   block " onClick={showMenu}>Courses</Link>
+
                         </li>
+                        
                     </ul>
                    
                 </ul>
